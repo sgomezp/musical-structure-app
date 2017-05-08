@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_ten"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonAlbums"
+                style="@style/HorizontalMenu"
+                android:layout_margin="3dp"
+                android:text="@string/albums_button" />
+
+
+            <Button
+                android:id="@+id/buttonSongs"
+                style="@style/HorizontalMenu"
+                android:text="@string/songs_button" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/explainArtistScreen"
+                style="@style/ActivityExplain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/artist_songs_screen" />
+
+            <TextView
+                android:id="@+id/artistName01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageArtist01"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center_horizontal"
+                android:text="@string/nameArtist01" />
+
+
+            <ImageView
+                android:id="@+id/imageArtist01"
+                style="@style/artists_songs_picture"
+                android:layout_below="@id/explainArtistScreen"
+                android:src="@drawable/billy_joel" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/songName01"
+            style="@style/SongsList"
+            android:layout_margin="@dimen/margin_15"
+            android:text="@string/song01_artist01" />
+
+        <TextView
+            android:id="@+id/songName02"
+            style="@style/SongsList"
+            android:layout_marginTop="0dp"
+            android:text="@string/song02_artist01" />
+
+        <TextView
+            android:id="@+id/songName03"
+            style="@style/SongsList"
+            android:text="@string/song03_artist01" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Musical App</string>
+
+    <!-- Category name for songs [CHAR LIMIT=20] -->
+    <string name="category_songs">Songs</string>
+
+    <!-- Category name for artists [CHAR LIMIT=20] -->
+    <string name="category_artist">Artists</string>
+
+    <!-- Category name for albums [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Label name for artists name's songs [CHAR LIMIT=20] -->
+    <string name="label_artist_songs_name">Artist\'s songs</string>
+
+    <!-- Explain for Main Activity  -->
+    <string name="main_screen">First screen. A menu with 3 options: Artists, Albums, Songs. Artists: opens a screen with a list of all  artists that are in the phone.
+Album: opens a screen (intent) with a list of all albums that are in your phone.
+Songs: opens a screen with a list of all songs saved in your phone.</string>
+
+    <!-- Explain for Artists Activity  -->
+
+    <string name="artists_screen">This intent shows a list of all the artists in your phone  (with their picture). When the name of the artist is clicked, a new screen is opened with the list of all their songs saved in the phone showing also the artist\'s picture and name.There are also two menu buttons. The app would use the Media Player API to play and restore the songs</string>
+
+    <!-- Explain for Albums Activity  -->
+    <string name="albums_screen">This screen is very similar to the artists\'s screen. Shows a list of all the albums in your phone (with their cover image). When the name of the album is clicked, a new screen should open it with the list of the album\'s songs.There are also two menu buttons. The app would use the Media Player API to play and restore the songs</string>
+
+    <!-- Explain for Songs Activity  -->
+    <string name="songs_screen">In this intent there is shown a list of all songs in your phone. Song\'s name followed by the singer\'s name. When the name of a song is clicked, the song would start to play. There are also two menu buttons for navigation purposes. The app would use the Media Player API to play and restore the songs.</string>
+
+    <!-- Explain for Artists's songs Activity  -->
+    <string name="artist_songs_screen">In this screen is displayed  a singer\'s photo with  their name and a list of all their songs stored in the phone. When the name of a song is clicked, the song would start to play. There are also  two menu buttons for navigation purposes. The app would use the Media Player API to play and restore the songs.</string>
+
+    <!-- Artist's names [CHAR LIMIT=20] -->
+    <string name="nameArtist01">Billy Joel</string>
+    <string name="nameArtist02">Jon Bon Jovi</string>
+    <string name="nameArtist03">David Bowie</string>
+    <string name="nameArtist04">Metallica</string>
+    <string name="nameArtist05">Josh Turner</string>
+
+    <!-- Songs's names and artist[CHAR LIMIT=20] -->
+    <string name="song01_artist01">River of Dreams.</string>
+    <string name="song02_artist01">Up Town girl</string>
+    <string name="song03_artist01">The Piano Man</string>
+
+    <string name="song01_artist02">It\'s my life</string>
+    <string name="song02_artist02">Always.</string>
+    <string name="song03_artist02">Wanted Dead or Alive.</string>
+
+    <string name="song01_artist03">Enter Sandman.</string>
+    <string name="song02_artist03">Nothing Else Matters.</string>
+    <string name="song03_artist03">Master of Puppets.</string>
+
+    <string name="song01_artist04">Let\'s Dance.</string>
+    <string name="song02_artist04">Lazarus.</string>
+    <string name="song03_artist04">Dancing in the Street.</string>
+
+    <string name="song01_artist05">Your Man.</string>
+    <string name="song02_artist05">Long Black Train.</string>
+    <string name="song03_artist05">All Over Me.</string>
+
+    <!-- Songs's names[CHAR LIMIT=20] -->
+    <string name="song01_01">River of Dreams. Billy Joel</string>
+    <string name="song02_01">Up Town girl. Billy Joel</string>
+    <string name="song03_01">The Piano Man. Billy Joel</string>
+
+    <string name="song01_02">It\'s my life. Jon Bon Jovi</string>
+    <string name="song02_02">Always. Jon Bon Jovi</string>
+    <string name="song03_02">Wanted Dead or Alive. Jon Bon Jovi</string>
+
+    <string name="song01_03">Enter Sandman. Metallica</string>
+    <string name="song02_03">Nothing Else Matters. Metallica</string>
+    <string name="song03_03">Master of Puppets. Metallica</string>
+
+    <string name="song01_04">Let\'s Dance. David Bowie</string>
+    <string name="song02_04">Lazarus. David Bowie</string>
+    <string name="song03_04">Dancing in the Street. David Bowie</string>
+
+    <string name="song01_05">Your Man. Josh Turner</string>
+    <string name="song02_05">Long Black Train. Josh Turner</string>
+    <string name="song03_05">All Over Me. Josh Turner</string>
+
+    <!-- Albums's names [CHAR LIMIT=20] -->
+    <string name="album01">Billy Joel. Greatest Hits</string>
+    <string name="album02">Bon Jovi. These Days </string>
+    <string name="album03">Metallica. Master of Puppets</string>
+    <string name="album04">David Bowie. Best of Bowie</string>
+    <string name="album05">Josh Turner. Your Man</string>
+
+    <!-- Buttons's names [CHAR LIMIT=20] -->
+    <string name="albums_button">Albums</string>
+    <string name="artists_button">Artists</string>
+    <string name="songs_button">Songs</string>
+
+</resources>

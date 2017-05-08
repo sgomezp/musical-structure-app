@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_ten"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonAlbums"
+                style="@style/HorizontalMenu"
+                android:text="@string/albums_button" />
+
+            <Button
+                android:id="@+id/buttonSongs"
+                style="@style/HorizontalMenu"
+                android:text="@string/songs_button" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/explainArtistScreen"
+                style="@style/ActivityExplain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/artists_screen" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@+id/explainArtistScreen" />
+
+            <ImageView
+                android:id="@+id/imageArtist01"
+                style="@style/artists_picture"
+                android:layout_below="@id/explainArtistScreen"
+                android:src="@drawable/billy_joel" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@+id/imageArtist01" />
+
+
+            <TextView
+                android:id="@+id/artistName01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/explainArtistScreen"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="35dp"
+                android:layout_toEndOf="@+id/imageArtist01"
+                android:text="@string/nameArtist01" />
+
+            <ImageView
+                android:id="@+id/imageArtist02"
+                style="@style/artists_picture"
+                android:layout_below="@id/imageArtist01"
+                android:src="@drawable/bon_jovi" />
+
+
+            <TextView
+                android:id="@+id/artistName02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artistName01"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="75dp"
+                android:layout_toEndOf="@+id/imageArtist02"
+                android:text="@string/nameArtist02" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@+id/imageArtist02" />
+
+            <ImageView
+                android:id="@+id/imageArtist03"
+                style="@style/artists_picture"
+                android:layout_below="@id/imageArtist02"
+                android:src="@drawable/david_bowie" />
+
+            <TextView
+                android:id="@+id/artistName03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artistName02"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="85dp"
+                android:layout_toEndOf="@+id/imageArtist03"
+                android:text="@string/nameArtist03" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@+id/imageArtist03" />
+
+            <ImageView
+                android:id="@+id/imageArtist04"
+                style="@style/artists_picture"
+                android:layout_below="@id/imageArtist03"
+                android:src="@drawable/metallica" />
+
+            <TextView
+                android:id="@+id/artistName04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artistName03"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="75dp"
+                android:layout_toEndOf="@+id/imageArtist04"
+                android:text="@string/nameArtist04" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@+id/imageArtist04" />
+
+            <ImageView
+                android:id="@+id/imageArtist05"
+                style="@style/artists_picture"
+                android:layout_below="@id/imageArtist04"
+                android:src="@drawable/josh_turner" />
+
+            <TextView
+                android:id="@+id/artistName05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/artistName04"
+                android:layout_centerHorizontal="false"
+                android:layout_centerVertical="false"
+                android:layout_marginTop="75dp"
+                android:layout_toEndOf="@+id/imageArtist05"
+                android:text="@string/nameArtist05" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@+id/imageArtist04" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

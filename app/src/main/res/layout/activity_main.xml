@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.musicalapp.MainActivity.FontAwesome">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heigh_zero"
+            android:layout_margin="@dimen/margin_ten"
+            android:layout_weight="0.5"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+            android:id="@+id/explain"
+            style="@style/ActivityExplain"
+            android:layout_weight="0.7"
+            android:text="@string/main_screen" />
+
+
+        <TextView
+            android:id="@+id/artists"
+            style="@style/MenuStyle"
+            android:layout_weight="0.5"
+            android:background="@color/color1"
+            android:text="@string/category_artist" />
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/MenuStyle"
+            android:layout_weight="0.5"
+            android:background="@color/color2"
+            android:text="@string/category_albums" />
+
+
+        <TextView
+            android:id="@+id/songs"
+            style="@style/MenuStyle"
+            android:layout_weight="0.5"
+            android:background="@color/color3"
+            android:text="@string/category_songs" />
+
+
+    </LinearLayout>
+</ScrollView>
