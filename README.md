@@ -12,15 +12,15 @@ Screens shots
 
 ![Artist screen scroll view:](https://cloud.githubusercontent.com/assets/8149936/25820626/3ebc82d8-3432-11e7-8609-ce632d5ee722.jpg)
 
-Artist's songs screen:
-https://cloud.githubusercontent.com/assets/8149936/25820625/3ebc7e5a-3432-11e7-978d-7f181c67860b.jpg
 
-Albums screen:
-https://cloud.githubusercontent.com/assets/8149936/25820628/3f135ce8-3432-11e7-9b5c-6247a3156b9c.jpg
+![Artist's songs screen:](https://cloud.githubusercontent.com/assets/8149936/25820625/3ebc7e5a-3432-11e7-978d-7f181c67860b.jpg)
 
-Albums screen landscape:
-https://cloud.githubusercontent.com/assets/8149936/25820623/3eb7d314-3432-11e7-96fa-e789c79befdb.jpg
 
-Songs Screen:
-https://cloud.githubusercontent.com/assets/8149936/25820627/3ecf4eb8-3432-11e7-97d5-5ecd42e06e26.jpg
+![Albums screen:](https://cloud.githubusercontent.com/assets/8149936/25820628/3f135ce8-3432-11e7-9b5c-6247a3156b9c.jpg)
+
+
+![Albums screen landscape:](https://cloud.githubusercontent.com/assets/8149936/25820623/3eb7d314-3432-11e7-96fa-e789c79befdb.jpg)
+
+
+![Songs Screen:](https://cloud.githubusercontent.com/assets/8149936/25820627/3ecf4eb8-3432-11e7-97d5-5ecd42e06e26.jpg)
 
