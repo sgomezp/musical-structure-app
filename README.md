@@ -3,14 +3,14 @@ The goal is to design and create the structure of a Music app which would allow 
 
 Screens shots
 
-Main Screen:
-https://cloud.githubusercontent.com/assets/8149936/25820622/3eb7ca54-3432-11e7-9f02-fe56bc8c6f71.jpg
 
-Artist Screen:
-https://cloud.githubusercontent.com/assets/8149936/25820624/3eb92ac0-3432-11e7-81ec-860f43ea803b.jpg
+![Main Screen:](https://cloud.githubusercontent.com/assets/8149936/25820622/3eb7ca54-3432-11e7-9f02-fe56bc8c6f71.jpg)
 
-Artist screen scroll view:
-https://cloud.githubusercontent.com/assets/8149936/25820626/3ebc82d8-3432-11e7-8609-ce632d5ee722.jpg
+
+![Artist Screen:](https://cloud.githubusercontent.com/assets/8149936/25820624/3eb92ac0-3432-11e7-81ec-860f43ea803b.jpg)
+
+
+![Artist screen scroll view:](https://cloud.githubusercontent.com/assets/8149936/25820626/3ebc82d8-3432-11e7-8609-ce632d5ee722.jpg)
 
 Artist's songs screen:
 https://cloud.githubusercontent.com/assets/8149936/25820625/3ebc7e5a-3432-11e7-978d-7f181c67860b.jpg
